@@ -1,0 +1,1 @@
+clear;g++  -Wall example.cpp network_buffered_reader.cpp  network_buffered_writer.cpp  utils.cpp topic_info.cpp  broker_channel.cpp  producer.cpp  -I . -I /opt/local/include  -lboost_system-mt -lboost_thread-mt -lboost_program_options-mt  -o example
